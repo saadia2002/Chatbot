@@ -1,0 +1,229 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "good evening",
+        "How are you?",
+        "cv",
+        "Hey",
+        "How are you doing?"
+      ],
+      "responses": [
+        "Hello, can I help you?",
+        "Hi, how can I assist you?",
+        "Hello",
+        "Hi,"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "see you",
+        "see you later",
+        "bye",
+        "bye-bye",
+        "Have a good day",
+        "until next time",
+        "Good evening",
+        "see you soon",
+        "farewell"
+      ],
+      "responses": [
+        "Goodbye",
+        "Until next time",
+        "See you later",
+        "Nice talking to you, see you next time"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "that's very kind",
+        "thank you",
+        "thanks a lot",
+        "I thank you from the bottom of my heart",
+        "that's very kind of you",
+        "I am very grateful to you for helping me"
+      ],
+      "responses": [
+        "You're welcome",
+        "It's nothing",
+        "You're welcome",
+        "You're welcome",
+        "You're welcome"
+      ]
+    },
+    {
+      "tag": "founders",
+      "patterns": [
+        "Who founded this chatbot?",
+        "Who are your founders?",
+        "Who created you?"
+      ],
+      "responses": [
+        "This chatbot is created by AIT ALI Mhamed saadia and AIT TALEB hind",
+        "My founders are AIT ALI Mhamed saadia and AIT TALEB hind"
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is AI?",
+        "What is artificial intelligence?",
+        "What does AI mean?",
+        "Can you explain AI?"
+      ],
+      "responses": [
+        "AI is a set of technologies that can enable machines or systems to perceive, understand, act, and learn",
+        "Artificial intelligence is a process of mimicking human intelligence based on creating and applying algorithms executed in a dynamic computing environment",
+        "Artificial intelligence is the set of theories and techniques implemented to achieve machines capable of simulating human intelligence"
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "What does chatbot mean?",
+        "What is a chatbot?",
+        "What is chatbot?"
+      ],
+      "responses": [
+        "A chatbot is a software application that uses artificial intelligence and natural language processing to engage in a human-like conversation naturally."
+      ]
+    },
+    {
+      "tag": "oracle",
+      "patterns": [
+        "What is Oracle?",
+        "What's Oracle?",
+        "Oracle, what is it?"
+      ],
+      "responses": [
+        "Oracle is a relational database management system (RDBMS) developed by Oracle Corporation. It is widely used in the business world to efficiently and securely store and manage data."
+      ]
+    },
+    {
+      "tag": "oracle_security",
+      "patterns": [
+        "What is security in Oracle?",
+        "What is Oracle security?"
+      ],
+      "responses": [
+        "Security in Oracle refers to the set of mechanisms, policies, and controls put in place to protect data stored in the Oracle database from unauthorized access, alterations, or losses."
+      ]
+    },
+    {
+      "tag": "oracle_recovery",
+      "patterns": [
+        "What is recovery in Oracle?",
+        "What is Oracle recovery?"
+      ],
+      "responses": [
+        "Recovery in Oracle refers to the system's ability to restore data and return to a functional state after an incident or failure. This involves implementing backup and recovery strategies to ensure data availability and integrity in case of failure or disaster."
+      ]
+    },
+    {
+      "tag": "oracle_security_methods",
+      "patterns": [
+        "What methods are used to ensure security in Oracle 11g?",
+        "How is security ensured in Oracle 11g?",
+        "What are the main means of securing Oracle 11g?"
+      ],
+      "responses": [
+        "To ensure security in Oracle 11g, several methods are used, such as managing users and privileges, access control through the use of security profiles and auditing user access, securing data through encryption and masking, implementing disaster recovery strategies with regular backups and restoration processes, adopting high availability solutions like Oracle Real Application Clusters (RAC) and Oracle Data Guard, as well as proactive management of security incidents with detection, response, and prevention of violations."
+      ]
+    },
+    {
+      "tag": "user_privileges_management",
+      "patterns": [
+        "What is user and privileges management in Oracle 11g?",
+        "How is user creation and management done in Oracle 11g?",
+        "What does role and permission assignment involve in Oracle 11g?"
+      ],
+      "responses": [
+        "User and privileges management in Oracle 11g involves creating, managing user accounts, and assigning roles with specific permissions."
+      ]
+    },
+    {
+      "tag": "access_control",
+      "patterns": [
+        "What is access control in Oracle 11g?",
+        "How are security profiles used in Oracle 11g?",
+        "What is user access and action auditing in Oracle 11g?"
+      ],
+      "responses": [
+        "Access control in Oracle 11g involves using security profiles to limit access and auditing user actions to ensure activity traceability."
+      ]
+    },
+    {
+      "tag": "data_security",
+      "patterns": [
+        "What does data security involve in Oracle 11g?",
+        "How is sensitive data encrypted in Oracle 11g?",
+        "What techniques are used for data masking in Oracle 11g?"
+      ],
+      "responses": [
+        "Data security in Oracle 11g includes encrypting sensitive data and using masking techniques to protect the integrity of information."
+      ]
+    },
+    {
+      "tag": "recovery_methods",
+      "patterns": [
+        "How does recovery work in Oracle 11g?",
+        "What are the backup strategies in Oracle 11g?",
+        "Which processes are used for restoration and recovery in Oracle 11g?"
+      ],
+      "responses": [
+        "Recovery in Oracle 11g involves backup, restoration, and recovery strategies to ensure data availability in case of a disaster."
+      ]
+    },
+    {
+      "tag": "high_availability",
+      "patterns": [
+        "How is high availability ensured in Oracle 11g?",
+        "What are the advantages of Oracle Real Application Clusters (RAC) in Oracle 11g?",
+        "How does Oracle Data Guard ensure redundancy and availability in Oracle 11g?"
+      ],
+      "responses": [
+        "High availability in Oracle 11g is ensured through solutions like Oracle Real Application Clusters (RAC) and Oracle Data Guard for fault tolerance and redundancy."
+      ]
+    },
+    {
+      "tag": "security_incident_management",
+      "patterns": [
+        "How is security incident management done in Oracle 11g?",
+        "What are the methods for detecting security incidents in Oracle 11g?",
+        "Which strategies are used to respond to and prevent security incidents in Oracle 11g?"
+      ],
+      "responses": [
+        "Security incident management in Oracle 11g includes detection, response, and prevention strategies to maintain a secure environment."
+      ]
+    },
+    {
+      "tag": "conclusion",
+      "patterns": [
+        "What are the key points covered in the conclusion of Oracle 11g?",
+        "Why is it important to summarize security and recovery in Oracle 11g?",
+        "What opportunities does the conclusion offer for questions and discussions on Oracle 11g?"
+      ],
+      "responses": [
+        "The conclusion summarizes the key points on security, recovery, and the ongoing importance of these aspects in Oracle 11g to maintain a reliable and secure system."
+      ]
+    },
+    {
+      "tag": "recovery_methods_oracle",
+      "patterns": [
+        "What are the methods for recovery in Oracle 11g?",
+        "How to ensure recovery in Oracle 11g?",
+        "What recovery processes are used in Oracle 11g?"
+      ],
+      "responses": [
+        "To ensure recovery in Oracle 11g, several methods are used, including the implementation of complete, incremental, and differential backup strategies, as well as precise backup planning. Restoration from these backups and data recovery are essential steps in case of a disaster."
+      ]
+    }    
+  ]
+}

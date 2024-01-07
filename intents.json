@@ -1,0 +1,216 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "salut",
+        "Bonjour",
+        "Bonsoir",
+        "Est ce que ca va?", "cv", "Allo",
+        "Comment allez vous?"
+      ],
+      "responses": [
+        "salut, puis-je vous aider?",
+        "Bonjour, Comment puis-je vous aider?",
+        "Bonjour",
+        "Salut,"
+      ]
+    },
+    {
+      "tag": "revoir",
+      "patterns": [
+        "au revoir",
+        "a toute",
+        "a plus",
+        "tchao",
+        "bye",
+        "Bonne journee",
+        "a la prochaine",
+        "Bonne soiree",
+        "a bientot",
+        "adieu"
+      ],
+      "responses": [
+        "au revoir",
+        "a la prochaine",
+        "a toute",
+        "ravi de vous parler, a la prochaine"
+      ]
+    },
+    {
+      "tag": "remerciment",
+      "patterns": [
+        "merci",
+        "c'est tres gentil", 
+        "je te remercie", 
+        "merci beaucoup",
+        "je vous remercie de tout mon coeur",
+        "c'est tres aimable a vous",
+        "je te suis tres reconnaissant de m'avoir aide"
+      ],
+      "responses": [
+        "de rien", 
+        "ce n'est rien",
+        "je vous en pris",
+        "il n'y a pas de quoi", 
+        "avec plaisir"
+      ]
+    },
+    {
+      "tag": "fondateurs",
+      "patterns": [
+        "Qui a fondu ce chatbot", 
+        "Quels sont vos fondateurs?", 
+        "qui vous a fabrique?"
+      ],
+      "responses": [
+        "Ce chatbot est realise par AIT ALI Mhamed saadia  et AIT TALEB hind",
+        "Mes fondateurs sont AIT ALI Mhamed saadia  et AIT TALEB hind"
+      ]
+    },
+    {
+      "tag": "ia",
+      "patterns": [
+        "ia c'est quoi?", 
+        "c'est quoi l'intelligence artificielle", 
+        "ca veut dire quoi l'ia", 
+        "pouvez vous m'expliquer l'IA?"
+      ],
+      "responses": [
+        "L'IA est un ensemble de technologies qui peut permettre aux machines ou aux systemes de percevoir, de comprendre, d'agir et d'apprendre", 
+        "L'intelligence artificielle est un processus d'imitation de l'intelligence humaine qui repose sur la creation et l'application d'algorithmes executes dans un environnement informatique dynamique",
+        "L'intelligence artificielle est l'ensemble des theories et des techniques mises en oeuvre en vue de realiser des machines capables de simuler l'intelligence humaine"
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "ca veut dire quoi chatbot?",
+        "qu'est ce que chatbot?",
+        "c'est quoi chatbot"
+      ],
+      "responses": [
+        "Un chatbot est une application logicielle qui utilisent l'intelligence artificielle et le traitement du langage naturel utilisee pour engager une conversation humaine de maniere naturelle" 
+      ]
+    },
+    {
+      "tag": "oracle",
+      "patterns": [
+        "Qu'est-ce qu'Oracle?",
+        "C'est quoi Oracle?",
+        "Oracle, c'est quoi?"
+      ],
+      "responses": [
+        "Oracle est un systeme de gestion de base de donnees relationnelle (SGBD) developpe par la societe Oracle Corporation. Il est largement utilise dans le monde des entreprises pour stocker et gerer des donnees de maniere efficace et securisee."
+      ]
+    },
+    {
+      "tag": "securite_oracle",
+      "patterns": [
+        "Qu'est-ce que la securite dans Oracle?",
+        "C'est quoi la securite d'Oracle?"
+      ],
+      "responses": [
+        "La securite dans Oracle fait reference a l'ensemble des mecanismes, des politiques et des controles mis en place pour proteger les donnees stockees dans la base de donnees Oracle contre les acces non autorises, les alterations ou les pertes."
+      ]
+    },
+    {
+      "tag": "reprise_oracle",
+      "patterns": [
+        "Qu'est-ce que la reprise dans Oracle?",
+        "C'est quoi la reprise d'Oracle?"
+      ],
+      "responses": [
+        "La reprise dans Oracle fait reference a la capacite du systeme a restaurer les donnees et a revenir a un etat fonctionnel apres un incident ou une defaillance. Cela implique la mise en place de strategies de sauvegarde et de recuperation pour garantir la disponibilite et l'integrite des donnees en cas de panne ou de sinistre."
+      ]
+    },
+    {
+      "tag": "methodes_securite_oracle",
+      "patterns": [
+        "Quelles sont les methodes utilisees pour garantir la securite dans Oracle 11g?",
+        "Comment assure-t-on la securite dans Oracle 11g?",
+        "Quels sont les principaux moyens de securiser Oracle 11g?"
+      ],
+      "responses": [
+        "Pour assurer la securite dans Oracle 11g, plusieurs methodes sont utilisees, telles que la gestion des utilisateurs et des privileges, le controle d'acces via l'utilisation de profils de securite et l'audit des acces utilisateurs, la securisation des donnees par chiffrement et masquage, la mise en place de strategies de reprise apres sinistre avec des sauvegardes regulieres et des processus de restauration, l'adoption de solutions de haute disponibilite comme Oracle Real Application Clusters (RAC) et Oracle Data Guard, ainsi que la gestion proactive des incidents de securite avec la detection, la reponse et la prevention des violations."
+      ]
+    },
+      {
+        "tag": "gestion_utilisateurs_privileges",
+        "patterns": [
+          "Qu'est-ce que la gestion des utilisateurs et des privileges dans Oracle 11g ?",
+          "Comment se fait la creation et la gestion des utilisateurs dans Oracle 11g ?",
+          "En quoi consiste l'attribution des roles et des autorisations dans Oracle 11g ?"
+        ],
+        "responses": [
+          "La gestion des utilisateurs et des privileges dans Oracle 11g implique la creation, la gestion des comptes utilisateurs et l'attribution de roles avec des autorisations specifiques."
+        ]
+      },
+      {
+        "tag": "controle_acces",
+        "patterns": [
+          "Qu'est-ce que le controle d'acces dans Oracle 11g ?",
+          "Comment utilise-t-on les profils de securite dans Oracle 11g ?",
+          "Qu'est-ce que l'audit des acces et des actions des utilisateurs dans Oracle 11g ?"
+        ],
+        "responses": [
+          "Le controle d'acces dans Oracle 11g implique l'utilisation de profils de securite pour limiter l'acces et l'audit des actions des utilisateurs pour assurer la traçabilite des activites."
+        ]
+      },
+      {
+        "tag": "securite_donnees",
+        "patterns": [
+          "Qu'implique la securite des donnees dans Oracle 11g ?",
+          "Comment se fait le chiffrement des donnees sensibles dans Oracle 11g ?",
+          "Quelles sont les techniques de masquage des donnees utilisees dans Oracle 11g ?"
+        ],
+        "responses": [
+          "La securite des donnees dans Oracle 11g comprend le chiffrement des donnees sensibles et l'utilisation de techniques de masquage pour proteger l'integrite des informations."
+        ]
+      },
+      {
+        "tag": "reprise_apres_sinistre",
+        "patterns": [
+          "Comment se deroule la reprise apres sinistre dans Oracle 11g ?",
+          "Quelles sont les strategies de sauvegarde dans Oracle 11g ?",
+          "Quels processus sont utilises pour la restauration et la recuperation dans Oracle 11g ?"
+        ],
+        "responses": [
+          "La reprise apres sinistre dans Oracle 11g implique des strategies de sauvegarde, de restauration et de recuperation pour garantir la disponibilite des donnees en cas de sinistre."
+        ]
+      },
+      {
+        "tag": "haute_disponibilite",
+        "patterns": [
+          "Comment la haute disponibilite est-elle assuree dans Oracle 11g ?",
+          "Quels sont les avantages d'Oracle Real Application Clusters (RAC) dans Oracle 11g ?",
+          "Comment Oracle Data Guard garantit-il la redondance et la disponibilite dans Oracle 11g ?"
+        ],
+        "responses": [
+          "La haute disponibilite dans Oracle 11g est assuree par des solutions comme Oracle Real Application Clusters (RAC) et Oracle Data Guard pour la tolerance aux pannes et la redondance."
+        ]
+      },
+      {
+        "tag": "gestion_incidents_securite",
+        "patterns": [
+          "Comment se fait la gestion des incidents de securite dans Oracle 11g ?",
+          "Quelles sont les methodes de detection des incidents de securite dans Oracle 11g ?",
+          "Quelles strategies sont utilisees pour repondre et prevenir les incidents de securite dans Oracle 11g ?"
+        ],
+        "responses": [
+          "La gestion des incidents de securite dans Oracle 11g inclut la detection, la reponse et la prevention des incidents pour maintenir un environnement securise."
+        ]
+      },
+      {
+        "tag": "methodes_reprise_sinistre",
+        "patterns": [
+          "Quelles sont les methodes de reprise apres sinistre dans Oracle 11g ?",
+          "Comment assurer la reprise apres sinistre dans Oracle 11g ?",
+          "Quels sont les processus de recuperation utilises dans Oracle 11g ?"
+        ],
+        "responses": [
+          "Pour assurer la reprise apres sinistre dans Oracle 11g, plusieurs methodes sont utilisees, notamment la mise en place de strategies de sauvegarde completes, incrementielles et differentielles, ainsi que la planification precise des sauvegardes. La restauration a partir de ces sauvegardes et la recuperation des donnees constituent des etapes essentielles en cas de sinistre."
+        ]
+      }    
+  ]
+}

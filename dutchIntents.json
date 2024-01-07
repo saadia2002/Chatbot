@@ -1,0 +1,229 @@
+{
+  "intents": [
+    {
+      "tag": "begroeting",
+      "patterns": [
+        "hallo",
+        "goedendag",
+        "goedenavond",
+        "Hoe gaat het?",
+        "cv",
+        "Hoi",
+        "Hoe gaat het met u?"
+      ],
+      "responses": [
+        "Hallo, kan ik u helpen?",
+        "Hoi, hoe kan ik u helpen?",
+        "Goedendag",
+        "Hoi,"
+      ]
+    },
+    {
+      "tag": "afscheid",
+      "patterns": [
+        "tot ziens",
+        "tot ziens",
+        "tot later",
+        "dag",
+        "doei",
+        "Fijne dag",
+        "tot de volgende keer",
+        "Goedenavond",
+        "tot snel",
+        "vaarwel"
+      ],
+      "responses": [
+        "Tot ziens",
+        "Tot de volgende keer",
+        "Tot later",
+        "Fijn gesprek, tot de volgende keer"
+      ]
+    },
+    {
+      "tag": "bedankt",
+      "patterns": [
+        "dank je",
+        "dat is erg vriendelijk",
+        "dank u",
+        "dank je wel",
+        "ik dank u uit de grond van mijn hart",
+        "dat is erg aardig van u",
+        "ik ben je zeer dankbaar dat je me hebt geholpen"
+      ],
+      "responses": [
+        "Graag gedaan",
+        "Het is niets",
+        "Graag gedaan",
+        "Graag gedaan",
+        "Graag gedaan"
+      ]
+    },
+    {
+      "tag": "oprichters",
+      "patterns": [
+        "Wie heeft deze chatbot opgericht?",
+        "Wie zijn jullie oprichters?",
+        "Wie heeft jou gemaakt?"
+      ],
+      "responses": [
+        "Deze chatbot is gemaakt door AIT ALI Mhamed saadia en AIT TALEB hind",
+        "Mijn oprichters zijn AIT ALI Mhamed saadia en AIT TALEB hind"
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "Wat is AI?",
+        "Wat is kunstmatige intelligentie?",
+        "Wat betekent AI?",
+        "Kun je AI uitleggen?"
+      ],
+      "responses": [
+        "AI is een reeks technologieën die machines of systemen in staat stellen om waar te nemen, te begrijpen, te handelen en te leren",
+        "Kunstmatige intelligentie is een proces van het nabootsen van menselijke intelligentie op basis van het creëren en toepassen van algoritmen die worden uitgevoerd in een dynamische computervormige omgeving",
+        "Kunstmatige intelligentie is het geheel van theorieën en technieken die worden toegepast om machines in staat te stellen menselijke intelligentie na te bootsen"
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "Wat betekent chatbot?",
+        "Wat is een chatbot?",
+        "Wat is chatbot?"
+      ],
+      "responses": [
+        "Een chatbot is een softwaretoepassing die kunstmatige intelligentie en natuurlijke taalverwerking gebruikt om op een natuurlijke manier een gesprek met mensen aan te gaan."
+      ]
+    },
+    {
+      "tag": "oracle",
+      "patterns": [
+        "Wat is Oracle?",
+        "Wat is Oracle?",
+        "Oracle, wat is het?"
+      ],
+      "responses": [
+        "Oracle is een relationeel databasebeheersysteem (RDBMS) ontwikkeld door Oracle Corporation. Het wordt veel gebruikt in het bedrijfsleven om gegevens efficiënt en veilig op te slaan en te beheren."
+      ]
+    },
+    {
+      "tag": "oracle_security",
+      "patterns": [
+        "Wat is beveiliging in Oracle?",
+        "Wat is Oracle-beveiliging?"
+      ],
+      "responses": [
+        "Beveiliging in Oracle verwijst naar de set mechanismen, beleidsregels en controles die zijn ingesteld om gegevens die zijn opgeslagen in de Oracle-database te beschermen tegen ongeoorloofde toegang, wijzigingen of verlies."
+      ]
+    },
+    {
+      "tag": "oracle_recovery",
+      "patterns": [
+        "Wat is herstel in Oracle?",
+        "Wat is Oracle-herstel?"
+      ],
+      "responses": [
+        "Herstel in Oracle verwijst naar het vermogen van het systeem om gegevens te herstellen en terug te keren naar een functionele staat na een incident of storing. Dit omvat het implementeren van back-up- en herstelstrategieën om gegevensbeschikbaarheid en integriteit te waarborgen in geval van storingen of rampen."
+      ]
+    },
+    {
+      "tag": "oracle_security_methods",
+      "patterns": [
+        "Welke methoden worden gebruikt om beveiliging te garanderen in Oracle 11g?",
+        "Hoe wordt beveiliging gegarandeerd in Oracle 11g?",
+        "Wat zijn de belangrijkste middelen om Oracle 11g te beveiligen?"
+      ],
+      "responses": [
+        "Om beveiliging in Oracle 11g te garanderen, worden verschillende methoden gebruikt, zoals het beheren van gebruikers en privileges, toegangscontrole via het gebruik van beveiligingsprofielen en het controleren van gebruikersacties, het beveiligen van gegevens via encryptie en maskering, implementeren van rampenherstelstrategieën met regelmatige back-ups en herstelprocessen, het aannemen van oplossingen voor hoge beschikbaarheid zoals Oracle Real Application Clusters (RAC) en Oracle Data Guard, evenals proactief beheer van beveiligingsincidenten met detectie, reactie en voorkoming van overtredingen."
+      ]
+    },
+    {
+      "tag": "user_privileges_management",
+      "patterns": [
+        "Wat is gebruikers- en privilegesbeheer in Oracle 11g?",
+        "Hoe wordt gebruikerscreatie en -beheer gedaan in Oracle 11g?",
+        "Wat houdt de toewijzing van rol en toestemming in in Oracle 11g?"
+      ],
+      "responses": [
+        "Gebruikers- en privilegesbeheer in Oracle 11g omvat het maken, beheren van gebruikersaccounts en het toewijzen van rollen met specifieke toestemmingen."
+      ]
+    },
+    {
+      "tag": "access_control",
+      "patterns": [
+        "Wat is toegangscontrole in Oracle 11g?",
+        "Hoe worden beveiligingsprofielen gebruikt in Oracle 11g?",
+        "Wat is gebruikerstoegang en actie-audit in Oracle 11g?"
+      ],
+      "responses": [
+        "Toegangscontrole in Oracle 11g omvat het gebruik van beveiligingsprofielen om toegang te beperken en het auditen van gebruikersacties om activiteitstraceerbaarheid te waarborgen."
+      ]
+    },
+    {
+      "tag": "data_security",
+      "patterns": [
+        "Wat houdt data security in Oracle 11g in?",
+        "Hoe wordt gevoelige data versleuteld in Oracle 11g?",
+        "Welke technieken worden gebruikt voor het maskeren van gegevens in Oracle 11g?"
+      ],
+      "responses": [
+        "Data security in Oracle 11g omvat het versleutelen van gevoelige data en het gebruik van maskeringstechnieken om de integriteit van informatie te beschermen."
+      ]
+    },
+    {
+      "tag": "recovery_methods",
+      "patterns": [
+        "Hoe werkt herstel in Oracle 11g?",
+        "Wat zijn de back-upstrategieën in Oracle 11g?",
+        "Welke processen worden gebruikt voor herstel en terugwinning in Oracle 11g?"
+      ],
+      "responses": [
+        "Herstel in Oracle 11g omvat back-up, herstel- en terugwinningsstrategieën om gegevensbeschikbaarheid te garanderen in geval van een ramp."
+      ]
+    },
+    {
+      "tag": "high_availability",
+      "patterns": [
+        "Hoe wordt hoge beschikbaarheid gegarandeerd in Oracle 11g?",
+        "Wat zijn de voordelen van Oracle Real Application Clusters (RAC) in Oracle 11g?",
+        "Hoe zorgt Oracle Data Guard voor redundantie en beschikbaarheid in Oracle 11g?"
+      ],
+      "responses": [
+        "Hoge beschikbaarheid in Oracle 11g wordt gegarandeerd door oplossingen zoals Oracle Real Application Clusters (RAC) en Oracle Data Guard voor fouttolerantie en redundantie."
+      ]
+    },
+    {
+      "tag": "security_incident_management",
+      "patterns": [
+        "Hoe wordt security incident management uitgevoerd in Oracle 11g?",
+        "Wat zijn de methoden voor het detecteren van security incidenten in Oracle 11g?",
+        "Welke strategieën worden gebruikt om te reageren op en het voorkomen van security incidenten in Oracle 11g?"
+      ],
+      "responses": [
+        "Security incident management in Oracle 11g omvat detectie, reactie en preventiestrategieën om een veilige omgeving te behouden."
+      ]
+    },
+    {
+      "tag": "conclusion",
+      "patterns": [
+        "Wat zijn de belangrijkste punten behandeld in de conclusie van Oracle 11g?",
+        "Waarom is het belangrijk om de beveiliging en het herstel in Oracle 11g samen te vatten?",
+        "Welke mogelijkheden biedt de conclusie voor vragen en discussies over Oracle 11g?"
+      ],
+      "responses": [
+        "De conclusie vat de belangrijkste punten samen over beveiliging, herstel en het voortdurende belang van deze aspecten in Oracle 11g om een betrouwbaar en veilig systeem te behouden."
+      ]
+    },
+    {
+      "tag": "recovery_methods_oracle",
+      "patterns": [
+        "Wat zijn de methoden voor herstel in Oracle 11g?",
+        "Hoe wordt herstel gegarandeerd in Oracle 11g?",
+        "Welke herstelprocessen worden gebruikt in Oracle 11g?"
+      ],
+      "responses": [
+        "Om herstel te garanderen in Oracle 11g worden verschillende methoden gebruikt, waaronder het implementeren van complete, incrementele en differentiële back-upstrategieën, evenals nauwkeurige back-upplanning. Herstel van deze back-ups en gegevensherstel zijn essentiële stappen in geval van een ramp."
+      ]
+    }    
+  ]
+}
